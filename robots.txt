@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myjerry243.github.io/gi-village-deploy/sitemap.xml
