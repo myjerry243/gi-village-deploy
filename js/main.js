@@ -104,6 +104,16 @@
     });
   }
 
+  /* --- FAQ accordion --- */
+  document.querySelectorAll('.faq-item').forEach(function (item) {
+    var q = item.querySelector('.faq-q');
+    if (q) {
+      q.addEventListener('click', function () {
+        item.classList.toggle('open');
+      });
+    }
+  });
+
   /* --- Footer year --- */
   var yr = document.getElementById('year');
   if (yr) yr.textContent = new Date().getFullYear();
