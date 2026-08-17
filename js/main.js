@@ -51,7 +51,7 @@
         'Product: ' + (product ? product.value : '—') + '\n\n' +
         msg.value.trim()
       );
-      var mailto = 'mailto:sales@givillage.com?subject=' + subject + '&body=' + body;
+      var mailto = 'mailto:Jerry888.xu@gmail.com?subject=' + subject + '&body=' + body;
       window.location.href = mailto;
 
       status.className = 'ok';
